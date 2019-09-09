@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 // Components
 import Product from './Product';
+// Contexts
+import {ProductContext} from "../contexts/ProductContext";
 
 const Products = props => {
 	return (
